@@ -1,0 +1,89 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent; /* Fully transparent */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .logo img {
+    height: 120px; /* Set a fixed height for the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex: 1; /* Make the ul take up the remaining space */
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url(images/turtle.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px; /* Adjust to match the height of the navbar */
+}
+
+.content {
+    background: url(images/turtle.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px; /* Adjust to match the height of the navbar */
+}
+
+.issue-content {
+    background: url(images/oil.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.marine-life-content {
+    background: url(images/marine.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.help-content {
+    background: url(images/help.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
